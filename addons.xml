@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.Mackenzie" name="Mackenzie" version="0.0.1" provider-name="Insomnia">
+	<extension point="xbmc.addon.repository" name="Mackenzie">
+		<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Espinete/Mackenzie/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+        <summary lang="es">Mackenzie Repository</summary>
+        <description lang="es">Installer Mackenzie</description>
+        <summary lang="es">Mackenzie Repository</summary>
+        <description lang="es">Download and install Mackenzie</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="script.start-up"
+       name="[B][COLOR lime]Start[/COLOR]-Up[/B]"
+       version="1.0.0"
+       provider-name="Team Open-source">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="en">Disable startup services on Kodi and improving internal speed.</summary>
+		<description lang="en"></description>
+    </extension>
+</addon>
+</addons>
