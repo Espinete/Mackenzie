@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addons>
 <addon id="plugin.video.live.streamspro"
        name="LiveStreamsPro"
        version="2.9.3"
@@ -17,7 +16,7 @@
     <import addon="script.module.resolveurl" optional="true"/>
     <import addon="script.module.urlresolver" optional="true"/>
     <import addon="script.module.inputstreamhelper" optional="true"/>
-    <import addon="script.module.simplejson" />
+    <import addon="script.module.simplejson" />    
     <import addon="script.module.livestreamer" optional="true"/>
     <import addon="script.module.slproxy" optional="true"/>
     <import addon="script.module.pyamf" optional="true"/>
@@ -42,27 +41,8 @@
         9. you can now append cookies in response and then read in regex using includeheaders
         10. You can now link to another web url via your xml using externallink
         11. support for google captcha, now you can show and then post the text
-
+        
     </description>
     <platform>all</platform>
   </extension>
 </addon>
-
-<addon id="repository.Mackenzie" name="Mackenzie" version="0.0.7" provider-name="Insomnia">
-	<extension point="xbmc.addon.repository" name="Mackenzie">
-		<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/Espinete/Mackenzie/master</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-        <summary lang="es">Mackenzie Repository</summary>
-        <description lang="es">Bienvenido al Repositorio de Insomnia</description>
-        <summary lang="es">Mackenzie Repository</summary>
-        <description lang="es">Download and install Mackenzie</description>
-        <platform>all</platform>
-		<assets>
-			<icon>icon.png</icon>
-		</assets>
-    </extension>
-</addon>
-</addons>
