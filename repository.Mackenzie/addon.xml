@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Mackenzie" name="Mackenzie" version="0.0.10" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/B][/COLOR]" version="0.0.10" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml.md5</checksum>
@@ -7,7 +7,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
         <summary lang="es">Mackenzie Repository</summary>
-        <description lang="es">Bienvenido al Repositorio de Insomnia</description>
+        <description lang="es">Bienvenido al repositorio de Insomnia</description>
         <summary lang="es">Mackenzie Repository</summary>
         <description lang="es">Download and install Mackenzie</description>
         <platform>all</platform>

@@ -416,7 +416,131 @@ In addition to what livestreams allowed you to do, you can now,
   </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="Mackenzie" version="0.0.10" provider-name="Insomnia">
+<addon id="repository.alfa-addon" name="[COLOR red]Alfa Add-on[/COLOR] Repo" version="1.0.8" provider-name="Alfa Development Group">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Alfa Add-on Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/alfa-addon/alfa-repo/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ca">Repositori d'Alfa Add-on</summary>
+        <summary lang="en">Alfa Add-on Repository</summary>
+        <summary lang="es">Repositorio de Alfa Add-on</summary>
+        <summary lang="it">Repository di Alfa Add-on</summary>
+        <summary lang="pt">Repositório de Alfa Add-on</summary>
+        <description lang="ca">Repositori per instal·lar Alfa Addon, un dels principals add-ons de contingut de parla hispana al món, successor al conegut Pelisalacarta-ce. També es proveeix algunes utilitats addicionals.</description>
+        <description lang="en">Repository to install Alfa Addon, one of the main Spanish-speaking content add-ons in the world, successor to the well-known Pelisalacarta-ce. Some additional utilities are also provided.</description>
+        <description lang="es">Repositorio para instalar Alfa Addon, uno de los principales add-ons de contenido de habla hispana en el mundo, sucesor al conocido Pelisalacarta-ce. También se provee de algunas utilidades adicionales.</description>
+        <description lang="it">Repository per installare Alfa Addon, uno dei principali add-on di contenuti di lingua spagnola nel mondo, successore del noto Pelisalacarta-ce. Vengono fornite anche alcune utilità aggiuntive.</description>
+        <description lang="pt">Repositório para instalação do Alfa Addon, um dos principais add-ons de conteúdo em língua espanhola do mundo, sucessor do conhecido Pelisalacarta-ce. Alguns utilitários adicionais também são fornecidos.</description>
+        <disclaimer lang="ca">[COLOR red]Els propietaris i distribuïdors d'aquest complemento no proveeixen ni distribueixen cap contingut mostrat pel complemento ni tenen affiliación alguna amb els proveïdors de l'contingut.[/COLOR]</disclaimer>
+        <disclaimer lang="en">[COLOR red]The owners and submitters to this add-on do not host or distribute any of the content displayed by these add-ons nor do they have any affiliation with the content providers.[/COLOR]</disclaimer>
+        <disclaimer lang="es">[COLOR red]Los propietarios y distribuidores de este add-on no proveen ni distribuyen ningún contenido mostrado por el add-on ni tienen afiliación alguna con los proveedores del contenido.[/COLOR]</disclaimer>
+        <disclaimer lang="it">[COLOR red]I proprietari e i distributori di questo add-on aggiuntivo non forniscono o distribuiscono alcun contenuto visualizzato dal add-on aggiuntivo né hanno alcuna affiliazione con i fornitori di contenuti.[/COLOR]</disclaimer>
+        <disclaimer lang="pt">[COLOR red]Os proprietários e distribuidores deste add-on não fornecem ou distribuem qualquer conteúdo exibido pelo add-on nem têm qualquer afiliação com os provedores de conteúdo.[/COLOR]</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <source>https://github.com/alfa-addon/alfa-repo</source>
+    </extension>
+</addon>
+
+<addon id="repository.bugatsinho" name=" Bugatsinho repository" version="2.6" provider-name="Bugatsinho">
+    <extension point="xbmc.addon.repository" name="Bugatsinho repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/_zips</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Twilight0/repo.twilight0.libs/master/_zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bugatsinho/python-koding/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bugatsinho/python-koding/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/python-koding/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bugatsinho repository</summary>
+        <description>This repository contains Greek, Spanish and other addons!Read first each addon's description!</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.cguzzman" name="[B]cguZZman's[/B] Add-on repository" version="2.0.0+matrix.0" provider-name="Carlos Guzman (cguZZman)">
+	<extension point="xbmc.addon.repository" name="Official cguZZman's Add-on Repository (matrix)">
+        <info>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-matrix.xml</info>
+        <checksum>https://raw.githubusercontent.com/cguZZman/repository.plugins/master/addons-info-matrix.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/cguZZman/repository.plugins/master/matrix/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Add-ons from https://github.com/cguZZman</summary>
+		<description>Download my releases faster</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.GTKing-Leia" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]GTKing[/B][/COLOR] [COLOR limegreen][B]LEIA[/B][/COLOR]" version="2.7.6" provider-name="GTKingTEAM">
+    <extension point="xbmc.addon.repository" name="[COLOR steelblue][B]Repo[/B][/COLOR] [COLOR azure][B]GTKing[/B][/COLOR] [COLOR limegreen][B]LEIA[/B][/COLOR]">
+        <dir minversion="18.0" maxversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info compressed="false">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/gtkingbuild/Repo-GTKing/master/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="18.9.0">
+            <info>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+        </dir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR steelblue]Repo[/COLOR] [COLOR azure]GTKing[/COLOR] [COLOR limegreen]LEIA[/COLOR]</summary>
+        <description>Repositorio de addons [COLOR dodgerblue]GTKING[/COLOR].
+[COLOR gold]Developers:[/COLOR] DavidZgZ, JoseaTEBA y GTKing TEAM</description>
+        <disclaimer>Éste repositorio sólo recoge addons válidos para Kodi 18.x LEIA.</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+		<source>https://github.com/gtkingbuild/Repo-GTKing/</source>
+    </extension>
+</addon>
+
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/B][/COLOR]" version="0.0.10" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml.md5</checksum>
@@ -424,7 +548,7 @@ In addition to what livestreams allowed you to do, you can now,
 	</extension>
 	<extension point="xbmc.addon.metadata">
         <summary lang="es">Mackenzie Repository</summary>
-        <description lang="es">Bienvenido al Repositorio de Insomnia</description>
+        <description lang="es">Bienvenido al repositorio de Insomnia</description>
         <summary lang="es">Mackenzie Repository</summary>
         <description lang="es">Download and install Mackenzie</description>
         <platform>all</platform>
@@ -432,6 +556,80 @@ In addition to what livestreams allowed you to do, you can now,
 			<icon>icon.png</icon>
 		</assets>
     </extension>
+</addon>
+
+    <addon id="repository.Magnetic" name="Magnetic Repo" version="1.1.0a" provider-name="1-cool-guy">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Magnetic Repo">
+        	<dir>
+            <info compressed="false">https://magnetic.website/__zips/addons.xml</info>
+            <checksum>https://magnetic.website/__zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://magnetic.website/__zips/</datadir>
+            <hashes>false</hashes>
+            </dir>
+			<dir>
+		    <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            <hashes>false</hashes>
+			</dir>
+			<dir>
+            <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+            </dir>
+			<dir>
+            <info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+            </dir>
+            <dir>
+            <info compressed="false">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jenaddon/repository.jenrepo/master/zips/</datadir>
+            <hashes>false</hashes>
+            </dir>
+			<dir>
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+        </dir>
+		<dir>
+    <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+    <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+</dir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Official Magnetic Repository</summary>
+            <description>Welcome to magnetic repo. Please enjoy</description>
+            <platform>all</platform>
+            <genre>movies,usa</genre>
+			<assets>
+			    <icon>icon.png</icon>
+			</assets>
+        </extension>
+    </addon>
+
+<addon id="repository.palantir2" name="[COLOR gold]Repositorio Palantir 2[/COLOR]" version="2.0.2" provider-name="TierraMedia">
+    <extension point="xbmc.addon.repository" name="Palantir 2 official Repo">
+    	<dir minversion="18.9.0">
+    	    <info compressed="false">https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/Palantiraddon/Repo/master/Palantir/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/Palantiraddon/repo/master/Palantir/</datadir>
+	    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary></summary>
+   		<description lang="en">[COLOR gold]Instala Palantir 2[/COLOR]</description>
+		<platform>all</platform>
+		<assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.gif</fanart>
+        </assets>
+	</extension>
 </addon>
 
 <addon id="repository.vstream"
