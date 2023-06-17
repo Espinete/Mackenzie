@@ -540,7 +540,7 @@ In addition to what livestreams allowed you to do, you can now,
     </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/B][/COLOR]" version="0.0.11" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/B][/COLOR]" version="0.1.0" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml.md5</checksum>
