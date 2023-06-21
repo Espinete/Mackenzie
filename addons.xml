@@ -540,7 +540,7 @@ In addition to what livestreams allowed you to do, you can now,
     </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/B][/COLOR]" version="0.1.0" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/B][/COLOR]" version="0.1.1" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml.md5</checksum>
@@ -725,6 +725,28 @@ In addition to what livestreams allowed you to do, you can now,
     <assets>
       <icon>icon.png</icon>
     </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.dnspython"
+       name="DNS Python"
+	   version="1.12.1"
+	   provider-name="dnspython">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+	<summary>A Pure Python DNS module</summary>
+	<description>A Pure Python DNS module</description>
+	<disclaimer lang="en"></disclaimer>
+	<language>en</language>
+    <platform>all</platform>
+	<license>BSD-style license</license>
+	<forum></forum>
+	<website>http://www.dnspython.org/</website>
+	<email></email>
+	<source>https://github.com/Arias800/script.module.dnspython/</source>
   </extension>
 </addon>
 
