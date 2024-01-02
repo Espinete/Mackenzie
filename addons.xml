@@ -146,7 +146,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="1.0.2" provider-name="Insomnia">
+<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="1.0.3" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -169,6 +169,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
+1_Ahora se ven los videos segun los subes
 In addition to what livestreams allowed you to do, you can now,
 1. call regex in regex,
 2. multiple regex in page, regex in session, also htmlunescape responses
@@ -498,7 +499,7 @@ In addition to what livestreams allowed you to do, you can now,
     </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/B][/COLOR]" version="0.1.5" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/B][/COLOR]" version="0.1.6" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml.md5</checksum>
