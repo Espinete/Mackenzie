@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="1.0.3" provider-name="Insomnia">
+<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="1.0.4" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -22,7 +22,8 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
-1_Ahora se ven los videos segun los subes		
+Ahora podemos disfrutar de las carpetas 		
+Ahora se ven los videos segun los subes		
 In addition to what livestreams allowed you to do, you can now,
 1. call regex in regex,
 2. multiple regex in page, regex in session, also htmlunescape responses
