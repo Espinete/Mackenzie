@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="1.0.7" provider-name="Insomnia">
+<addon id="plugin.video.live.streamspro" name="LiveStreamsPro" version="1.0.8" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -23,6 +23,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
+Ahora antes de ver peli podemos ver trailers 
 Ahora vidoza,petir,drain,trailers estan ok
 Ahora podemos disfrutar de las carpetas 		
 Ahora se ven los videos segun los subes		
