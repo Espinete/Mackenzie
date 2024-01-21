@@ -227,7 +227,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.0.8" provider-name="Insomnia">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.0.9" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -251,6 +251,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
+Mejorado el flujo de vistas
 corregidos los errores en andorid del modo de visualizacion
 Ahora ademas el cambio de modo de vision es compatible con android
 Ahora el modo de vision esta configurado al gusto
@@ -511,7 +512,7 @@ In addition to what livestreams allowed you to do, you can now,
     </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="0.3.9" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="0.4.0" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml.md5</checksum>
