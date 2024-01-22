@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.1.0" provider-name="Insomnia">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.1.1" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -8,14 +8,14 @@
 		<import addon="script.module.websocket" version="0.50.0"  optional="true"/>
 		<import addon="script.module.youtube.dl" optional="true"/>
 		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.embuary.info"/>
+		<import addon="script.embuary.info"/>		
+		<import addon="inputstream.adaptive"/>
+		<import addon="plugin.video.imdb.trailers"/>
+		<import addon="resource.language.es_es"/>
 		<import addon="script.module.dateutil" optional="true" />
-		<import addon="script.module.resolveurl" optional="true"/>
-		<import addon="script.module.urlresolver" optional="true"/>
-		<import addon="script.module.cloudscraper" optional="true"/>
-		<import addon="script.module.inputstreamhelper" optional="true"/>
-		<import addon="script.module.slproxy" optional="true"/>
-	</requires>
+		<import addon="script.module.resolveurl" optional="true"/>		
+		<import addon="script.module.inputstreamhelper" optional="true"/>		
+	</requires>	
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
 	</extension>
@@ -23,6 +23,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
+Cambia de idioma, configura todo automaticamente
 corregidos los errores en andorid del modo de visualizacion
 Ahora ademas el cambio de modo de vision es compatible con android
 Ahora el modo de vision esta configurado al gusto
