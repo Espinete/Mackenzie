@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.1.3" provider-name="Insomnia">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.1.4" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -10,7 +10,9 @@
 		<import addon="inputstream.adaptive"/>
 		<import addon="plugin.video.imdb.trailers"/>
 		<import addon="resource.language.es_es"/>
-		<import addon="script.module.dateutil" optional="true" />				
+		<import addon="script.module.dateutil" optional="true" />
+		<import addon="script.module.resolveurl" optional="true"/>
+		<import addon="script.module.urlresolver" optional="true"/>
 	</requires>	
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -18,7 +20,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
-recortes para la instalacion mas fina
+avisa el cajon de pleiculas en estreno
 Cambia de idioma, configura todo automaticamente y foto skin
 corregidos los errores en andorid del modo de visualizacion
 Ahora ademas el cambio de modo de vision es compatible con android
