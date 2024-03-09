@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.2.6" provider-name="Insomnia">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.2.7" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -19,6 +19,7 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
+Corean el nombre de topuria
 Reparado errores de la base de datos de kodi
 Addon más rápido
 Gracias a Jose funciona para las versiones 19 y 20		
