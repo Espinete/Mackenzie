@@ -53,72 +53,7 @@
 	<extension point="xbmc.service" library="videolibrary_service.py" start="login|startup"></extension>
 </addon>
 
-<addon id="plugin.video.duffyou" name="Duff You" version="0.2.1" provider-name="La Taberna">
-    <requires>
-        <import addon="script.module.six" version="1.11.0" />
-        <import addon="script.module.simplecache" />
-        <import addon="script.module.inputstreamhelper" version="0.5.0" />
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="libs/plugin.py">
-        <provides>video</provides>
-    </extension>
-	<extension point="xbmc.python.module" library="libs" />
-    <extension point="xbmc.addon.metadata">
-        <description>Hasta las narices de las apikeys de YouTube? Y de ver como calidad máxima los videos de la plataforma solo hasta 720p?[CR]Pues se acabó! Desde nuestra taberna os presentamos un nuevo addon de YouTube, donde no hace falta APIKEY alguna, ni tampoco hay ningún tipo de restricción para ver los videos a la máxima calidad ofrecida, 720p, 1080p, 2K y 4K![CR]Todo esto y mucho mas...</description>
-        <disclaimer>Este es un software [COLOR red][B]gratuito[/B][/COLOR][CR][COLOR red][B]Pero no se permite[/B][/COLOR] su distribuición preinstalada en ningún tipo de dispositivo ni tampoco su inclusión total o parcial en cualquier paquete de software y/o hardware por el que el usuario final deba [COLOR red][B]pagar o hacer una donación[/B][/COLOR], por su adquisición, por su uso o por recibir asistencia.[CR]Si cree que alguna de estas normas no se está cumpliendo póngase en contacto con nosotros.</disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.jpg</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-        <license>[B]Este es un software gratuito[/B]</license>
-        <news>- Añadida opción de reproducción externa de playlists[CR]- Correcciones menores
-        </news>
-    </extension>
-</addon>
-
-<addon id="plugin.video.moestv" name="Moe's TV" version="0.2.1" provider-name="La Taberna">
-  <requires>
-    <import addon="script.module.six" version="1.11.0"/>
-    <import addon="script.module.simplecache"/>
-    <import addon="script.module.inputstreamhelper" version="0.5.0"/>
-    <import addon="plugin.video.duffyou" version="0.1.2"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>Televisión a la carta y en directo.[CR]Algunos de los enlaces de la sección 'En Directo' provienen de las listas publicadas en https://www.tdtchannels.com/ </summary>
-    <disclaimer>Este es un software [COLOR red][B]gratuito[/B][/COLOR][CR][COLOR red][B]Pero no se permite[/B][/COLOR] su distribuición preinstalada en ningún tipo de dispositivo ni tampoco su inclusión total o parcial en cualquier paquete de software y/o hardware por el que el usuario final deba [COLOR red][B]pagar o hacer una donación[/B][/COLOR], por su adquisición, por su uso o por recibir asistencia.[CR]Si cree que alguna de estas normas no se está cumpliendo póngase en contacto con nosotros.</disclaimer>
-    <platform>all</platform>
-    <assets>
-        <icon>icon.jpg</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
-    <license>[B]Este es un software gratuito[/B]</license>
-    <news> - Versión 0.1.3:
-      * Mostrar vistos en skin embuary
-      [CR]- Versión 0.1.2:
-      * Reparado fix en multi-bitrate
-      [CR]- Versión 0.1.1:
-      * Reparado fix MPD en Atresplayer
-      * Uso de Duff You para resolver enlaces de youtube
-      * Mejoras en la actualización de canales
-      [CR]- Version 0.0.9:
-      * Nuevos canales
-      * Cambios en el orden de los canales
-      * Permitir descargas en la mayoria de los canales.
-      * Canal Mitele: Reparar Geolocalizacion de IPs en windows 10 y kodi 19
-      * Mejora en la actualización de canales
-      * Otras reparaciones menores
-      [CR]- Versión inicial 0.0.7
-    </news>
-  </extension>
-</addon>
-
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.3.1" provider-name="Insomnia">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.3.2" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -138,6 +73,8 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
+Nueva seccion peliculas kinkis
+
 Addon más rápido
 
 Corean el nombre de topuria
@@ -311,7 +248,7 @@ In addition to what livestreams allowed you to do, you can now,
     </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="0.6.6" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="0.6.7" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
@@ -427,34 +364,6 @@ In addition to what livestreams allowed you to do, you can now,
         <description lang="en">Download and install vStream</description>
         <platform>all</platform>
     </extension>
-</addon>
-
-<addon id="script.luar"
-  version="0.9.10"
-  name="Luar"
-  provider-name="The Dreamers">
-  <requires>
-    <import addon="script.module.six" version="1.11.0"/>
-    <import addon="script.module.requests"/>
-    <import addon="resource.language.es_es"/>
-    <import addon="script.module.pycryptodome" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="es">Script instalador de complementos para Kodi.</summary>
-    <description lang="es">Selecciona, instala y disfruta.</description>
-    <disclaimer>Este es un software [COLOR red][B]gratuito[/B][/COLOR][CR]No obstante, [COLOR red][B]no se permite[/B][/COLOR] su distribuición preinstalada en ningún tipo de dispositivo ni tampoco su inclusión total o parcial en cualquier paquete de software y/o hardware por el que el usuario final deba [COLOR red][B]pagar o hacer una donación[/B][/COLOR], por su adquisición, uso o asistencia.[CR]Si cree que alguna de estas normas no se está cumpliendo póngase en contacto con nosotros.</disclaimer>
-    <assets>
-      <icon>icon.gif</icon>
-      <fanart>fanart.jpg</fanart>
-      <screenshot>resources/screenshot000.jpg</screenshot>
-      <screenshot>resources/screenshot001.jpg</screenshot>
-      <screenshot>resources/screenshot002.jpg</screenshot>
-    </assets>
-  </extension>
 </addon>
 
 <addon
