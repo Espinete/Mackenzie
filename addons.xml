@@ -53,7 +53,7 @@
 	<extension point="xbmc.service" library="videolibrary_service.py" start="login|startup"></extension>
 </addon>
 
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.5.2" provider-name="Insomnia">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="0.5.3" provider-name="Insomnia">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -74,6 +74,8 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>livestreamspro- shamelessly forked from livestreams but added many things</summary>
 		<description>
+Nuevo servidor
+
 Se guarda donde lo dejaste
 
 Instala resolveurl en la primera instalacion
@@ -253,7 +255,7 @@ In addition to what livestreams allowed you to do, you can now,
     </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="0.8.8" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="0.8.9" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
