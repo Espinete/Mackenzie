@@ -1,0 +1,85 @@
+﻿<settings>
+  <category label="General">
+    <setting id="save_location" type="folder"  label="Select a download location." default=""/>
+    <setting id="use_thumb" type="bool" label="Use Thumbnails as Fanart" default="false" />
+    <setting id="logo-folderPath" type="folder"  label="Select Directory for logo." default=""/>
+    <setting id="add_playlist" type="bool" label="Add items with multiple links as play lists" default="false"/>
+    <setting id="ask_playlist_items" type="bool" label="Ask playlist items to choose from dialog" default="false" />
+    <setting id="debug" type="bool" label="Enable Add-on Debugging" default="false"/>
+    <setting id="1080pquality" label="Play 1080p video ON demand if available (Not live)" type="bool" default=""/>
+    <setting id="genesisorpulsar" type="enum" values="Genesis|Pulsar" label="Play IMDBid with:" default="Genesis"/>
+    <setting id="donotshowbychannels" label="Do Not show items under channel name" type="bool" default="false"/>
+    
+    <setting id="parentalblockedpin" label="Parental Block Pin" type="text"  option="hidden"  default=""/>
+    <setting id="parentalblocked" label="Is Parental Blocked Applied?" type="bool" default="false" enable="false"/>
+    
+  </category>
+  <category label="Add Source">
+    <setting id="choose_source" type="enum" values="Choose File|Enter URL" label="Choose Source Type" default=""/>
+    <setting id="new_file_source" type="file" source="files" label="Choose File" default="" visible="eq(-1,0)"/>
+    <setting id="new_url_source" type="text" label="Add URL" default="" visible="eq(-2,1)"/>
+    <setting type="sep" />
+    <setting type="action" label="Add Source" option="close" action="RunPlugin(plugin://plugin.video.play/?mode=7)" />
+    <setting type="sep" />
+    <setting id="searchotherplugins" label="Search Other plugins" type="bool" default="false"/>
+  </category>
+  <category label="Resolvers genéricos 1">
+		<setting label="AllDebrid" type="lsep"/>
+		<setting id="AllDebridResolver_priority" type="number" label="Prioridad" default="100"/>
+		<setting id="AllDebridResolver_enabled" type="bool" label="Activado" default="true"/>
+		<setting id="AllDebridResolver_login" type="bool" label="Login" default="true" visible="false"/>
+		<setting id="AllDebridResolver_torrents" type="bool" label="Soporte de Torrents" default="true"/>
+		<setting id="AllDebridResolver_cached_only" enable="eq(-1,true)" type="bool" label="Torrents en caché solamente" default="false" />
+		<setting id="AllDebridResolver_auth" type="action" label="(Re)Authorise My Account" action="RunPlugin(plugin://script.module.resolveurl/?mode=auth_ad)"/>
+		<setting id="AllDebridResolver_reset" type="action" label="Reset My Authorisation" action="RunPlugin(plugin://script.module.resolveurl/?mode=reset_ad)"/>
+		<setting id="AllDebridResolver_token" visible="false" type="text" default=""/>
+		<setting label="Boxbit" type="lsep"/>
+		<setting id="BoxbitResolver_priority" type="number" label="Prioridad" default="100"/>
+		<setting id="BoxbitResolver_enabled" type="bool" label="Activado" default="true"/>
+		<setting id="BoxbitResolver_login" type="bool" label="Login" default="false"/>
+		<setting id="BoxbitResolver_email" enable="eq(-1,true)" type="text" label="email" default=""/>
+		<setting id="BoxbitResolver_password" enable="eq(-2,true)" type="text" label="Contraseña" option="hidden" default=""/>
+		<setting id="BoxbitResolver_token" visible="false" type="text" default=""/>
+		<setting id="BoxbitResolver_uuid" visible="false" type="text" default=""/>
+		<setting id="BoxbitResolver_time_expired" visible="false" type="text" default=""/>
+		<setting label="Debrid-Link" type="lsep"/>
+		<setting id="DebridLinkResolver_priority" type="number" label="Prioridad" default="100"/>
+		<setting id="DebridLinkResolver_enabled" type="bool" label="Activado" default="true"/>
+		<setting id="DebridLinkResolver_login" type="bool" label="Login" default="true" visible="false"/>
+		<setting id="DebridLinkResolver_torrents" type="bool" label="Soporte de Torrents" default="true"/>
+		<setting id="DebridLinkResolver_cached_only" enable="eq(-1,true)" type="bool" label="Torrents en caché solamente" default="false" />
+		<setting id="DebridLinkResolver_auth" type="action" label="(Re)Authorise My Account" action="RunPlugin(plugin://script.module.resolveurl/?mode=auth_dl)"/>
+		<setting id="DebridLinkResolver_reset" type="action" label="Reset My Authorisation" action="RunPlugin(plugin://script.module.resolveurl/?mode=reset_dl)"/>
+		<setting id="DebridLinkResolver_token" visible="false" type="text" default=""/>
+		<setting id="DebridLinkResolver_refresh" visible="false" type="text" default=""/>
+		<setting id="DebridLinkResolver_client_id" visible="false" type="text" default=""/>
+		<setting label="Linksnappy" type="lsep"/>
+		<setting id="LinkSnappyResolver_priority" type="number" label="Prioridad" default="100"/>
+		<setting id="LinkSnappyResolver_enabled" type="bool" label="Activado" default="true"/>
+		<setting id="LinkSnappyResolver_login" type="bool" label="Login" default="true" visible="false"/>
+		<setting id="LinkSnappyResolver_username" enable="eq(-1,true)" type="text" label="Usuario" visible="false" default=""/>
+		<setting id="LinkSnappyResolver_password" enable="eq(-2,true)" type="text" label="Contraseña" visible="false" default=""/>
+		<setting id="LinkSnappyResolver_auth" type="action" label="(Re)Authorise My Account" action="RunPlugin(plugin://script.module.resolveurl/?mode=auth_ls)" option="close"/>
+		<setting id="LinkSnappyResolver_reset" type="action" label="Reset My Authorisation" action="RunPlugin(plugin://script.module.resolveurl/?mode=reset_ls)"/>
+		<setting id="LinkSnappyResolver_cached_files_only" type="bool" label="Solo hosts almacenados en caché" default="false" />
+		<setting id="LinkSnappyResolver_torrents" type="bool" label="Soporte de Torrents" default="true"/>
+		<setting id="LinkSnappyResolver_cached_only" enable="eq(-1,true)" type="bool" label="Torrents en caché solamente" default="true" />
+		<setting id="LinkSnappyResolver_expiration_timestamp" label="Linksnappy expiration timestamp" visible="false" type="text" default=""/>
+		<setting label="MegaDebrid" type="lsep"/>
+		<setting id="MegaDebridResolver_priority" type="number" label="Prioridad" default="100"/>
+		<setting id="MegaDebridResolver_enabled" type="bool" label="Activado" default="true"/>
+		<setting id="MegaDebridResolver_use_https" type="bool" label="Usar HTTPS" default="true"/>
+		<setting id="MegaDebridResolver_login" type="bool" label="Login" default="false"/>
+		<setting id="MegaDebridResolver_username" enable="eq(-1,true)" type="text" label="Usuario" default=""/>
+		<setting id="MegaDebridResolver_password" enable="eq(-2,true)" type="text" label="Contraseña" option="hidden" default=""/>
+	</category>
+
+  <category label=".xml Database">
+    <setting id="browse_xml_database" type="bool" label="Browse and play from .xml Database" default="false"/>
+    <setting type="action" label="Add .xml Database Sources" option="close" action="Container.Update(plugin://plugin.video.play/?mode=14)" />
+  </category>
+  <category label="Community Files">
+    <setting id="browse_community" type="bool" label="Browse and play from Community Files" default="false"/>
+    <setting type="action" label="Add Community File URL as Source" option="close" action="Container.Update(plugin://plugin.video.play/?mode=10)" />
+  </category>
+</settings>

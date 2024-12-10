@@ -1,0 +1,222 @@
+<sources>
+    <programs>
+        <default pathversion="1"></default>
+    </programs>
+    <video>
+        <default pathversion="1"></default>
+        <source>
+            <name>OpenMeta Movies</name>
+            <path pathversion="1">special://profile/addon_data/plugin.video.openmeta/Movies/</path>
+            <thumbnail pathversion="1">C:\Users\PeMar\AppData\Roaming\Kodi\addons\plugin.video.openmeta\resources\media\movies.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>OpenMeta TV shows</name>
+            <path pathversion="1">special://profile/addon_data/plugin.video.openmeta/TVShows/</path>
+            <thumbnail pathversion="1">C:\Users\PeMar\AppData\Roaming\Kodi\addons\plugin.video.openmeta\resources\media\tv.png</thumbnail>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>pelis_Asus</name>
+            <path pathversion="1">D:\pelis\</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Series_asus</name>
+            <path pathversion="1">Y:\</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>R_peliculas</name>
+            <path pathversion="1">X:\peliculas\</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Ro_SAmba_peliculas</name>
+            <path pathversion="1">smb://WAP/usb-6557-385297_1/peliculas/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Rc_series </name>
+            <path pathversion="1">X:\series\</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>series_Ro_Samba</name>
+            <path pathversion="1">smb://192.168.29.30/usb-6557-385297_1/series/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>series_Pen</name>
+            <path pathversion="1">Y:\series\</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </video>
+    <music>
+        <default pathversion="1"></default>
+    </music>
+    <pictures>
+        <default pathversion="1"></default>
+    </pictures>
+    <files>
+        <default pathversion="1"></default>
+        <source>
+            <name>dandy</name>
+            <path pathversion="1">http://dandymedia.club/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>cazcall</name>
+            <path pathversion="1">http://repo.cazwall.com/sc/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>disca</name>
+            <path pathversion="1">http://kodi.discavehb.com/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>exabyte</name>
+            <path pathversion="1">http://exabytetv.info/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>canalnereo</name>
+            <path pathversion="1">http://canalnereo.com/canalnereo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>colossusrepo</name>
+            <path pathversion="1">http://tinyurl.com/colossusrepo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>master</name>
+            <path pathversion="1">http://legionworldtv.com/master/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>jesusrepo</name>
+            <path pathversion="1">http://jesusboxrepo.xyz/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>ninja</name>
+            <path pathversion="1">http://ninjasys.uk/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>portal</name>
+            <path pathversion="1">http://noobsandnerds.com/portal/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>merlin</name>
+            <path pathversion="1">http://mwiz.co.uk/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>world</name>
+            <path pathversion="1">http://wolf-pack.netai.net/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>Superepo</name>
+            <path pathversion="1">http://srp.nu/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.fusion</name>
+            <path pathversion="1">http://fusion.tvaddons.co/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>freeworhosting</name>
+            <path pathversion="1">http://legionworldtv.com/hosting/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>cato</name>
+            <path pathversion="1">http://catoal.org/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.kodiadictos</name>
+            <path pathversion="1">https://kodiadictos.github.io/fuente/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>macy</name>
+            <path pathversion="1">http://2supremacy.uk/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>One</name>
+            <path pathversion="1">http://onenation.info/Repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>sokodi</name>
+            <path pathversion="1">http://sokodi.net/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>mitele</name>
+            <path pathversion="1">http://hirayasoftware.com/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>cy4</name>
+            <path pathversion="1">https://cy4root2.github.io/zip/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>luar</name>
+            <path pathversion="1">https://luarsource.github.io/Fuente/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>kelebek</name>
+            <path pathversion="1">https://kelebekmariposas.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>ezzer</name>
+            <path pathversion="1">http://ezzer-mac.com/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>.Cristal</name>
+            <path pathversion="1">https://fuentekodileia.github.io/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>vstream</name>
+            <path pathversion="1">https://kodi-vstream.github.io/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>midian</name>
+            <path pathversion="1">https://www.midian.appboxes.co/repo/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>script.module.beautifulsoup4</name>
+            <path pathversion="1">https://mirrors.kodi.tv/addons/krypton/script.module.beautifulsoup4/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>1_f4mtester</name>
+            <path pathversion="1">http://diamondbuild.xyz/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+        <source>
+            <name>1_Insomnia</name>
+            <path pathversion="1">https://espinete.github.io/fuente/</path>
+            <allowsharing>true</allowsharing>
+        </source>
+    </files>
+    <games>
+        <default pathversion="1"></default>
+    </games>
+</sources>
