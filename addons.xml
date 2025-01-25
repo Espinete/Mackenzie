@@ -38,7 +38,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.0.3" provider-name="El puto amo es solo mi antecesor">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.0.4" provider-name="El puto amo es solo mi antecesor">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -59,6 +59,8 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Insomnia</summary>
 		<description>
+la familia crece con vembed bienvenido
+
 errores de link ok
 
 Se unen a nuestra familia streamsilk y bigwarp, bienvenidos
@@ -316,7 +318,7 @@ In addition to what livestreams allowed you to do, you can now,
     </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="1.4.0" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="1.4.1" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
