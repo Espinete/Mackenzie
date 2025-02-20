@@ -83,7 +83,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.0.5" provider-name="El puto amo es solo mi antecesor">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.0.6" provider-name="El puto amo es solo mi antecesor">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -104,6 +104,8 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Insomnia</summary>
 		<description>
+Ya esta aqui Torrents producciones
+
 La familia sigue creciendo con Torrent
 
 La familia crece con vembed bienvenido
@@ -365,7 +367,7 @@ In addition to what livestreams allowed you to do, you can now,
     </extension>
 </addon>
 
-<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="1.4.4" provider-name="Insomnia">
+<addon id="repository.Mackenzie" name="[COLOR forestgreen][B]Mackenzie[/COLOR][/B]" version="1.4.5" provider-name="Insomnia">
 	<extension point="xbmc.addon.repository" name="Mackenzie">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/Espinete/Mackenzie/master/addons.xml</info>
