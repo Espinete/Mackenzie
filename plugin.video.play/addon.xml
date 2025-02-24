@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.0.5" provider-name="El puto amo es solo mi antecesor">
+<addon id="plugin.video.play" name="[COLOR forestgreen][B]Play[/COLOR][/B]" version="1.0.7" provider-name="El puto amo es solo mi antecesor">
 	<requires>
 		<import addon="script.module.six" />
 		<import addon="script.module.kodi-six" />
@@ -20,6 +20,10 @@
 	<extension point="xbmc.addon.metadata">
 		<summary>Insomnia</summary>
 		<description>
+A partir de ahora tenemos Tv		
+		
+Ya esta aqui Torrents producciones		
+		
 La familia sigue creciendo con Torrent		
 		
 La familia crece con vembed bienvenido	
